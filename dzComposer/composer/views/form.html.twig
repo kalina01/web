@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<h4>Введите текст</h4>
+
+<form action="/log" method="post">
+    <input type="text" name="text" />
+    <button>ввод</button>
+</form>
+
+{% endblock %}
